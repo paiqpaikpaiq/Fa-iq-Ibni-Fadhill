@@ -1,6 +1,15 @@
 nama = "Fa'iq Ibni Fadhill"
 
-print("Halo, Fa'iq Ibni Fadhill!")
-print("Jumlah karakter: 18")
-print("Huruf kapital: FA'IQ IBNI FADHILL")
-print("Huruf kecil: fa'iq ibni fadhill")
+print("=" * 35)
+print("      DATA DIRI SEDERHANA")
+print("=" * 35)
+
+print("Nama            :", nama)
+print("Jumlah Karakter :", len(nama))
+print("Huruf Kapital   :", nama.upper())
+print("Huruf Kecil     :", nama.lower())
+print("Huruf Awal Besar:", nama.title())
+
+print("=" * 35)
+print("Program selesai")
+print("=" * 35)
