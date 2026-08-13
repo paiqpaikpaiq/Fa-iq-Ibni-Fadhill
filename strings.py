@@ -1,15 +1,18 @@
 nama = "Fa'iq Ibni Fadhill"
+kelas = "X TKJ A"
+hobi = "Main Game dan Belajar Python"
 
-print("=" * 35)
-print("      DATA DIRI SEDERHANA")
-print("=" * 35)
+print("=" * 40)
+print("          DATA DIRI SISWA")
+print("=" * 40)
 
-print("Nama            :", nama)
-print("Jumlah Karakter :", len(nama))
-print("Huruf Kapital   :", nama.upper())
-print("Huruf Kecil     :", nama.lower())
-print("Huruf Awal Besar:", nama.title())
+print(f"Nama            : {nama}")
+print(f"Kelas           : {kelas}")
+print(f"Hobi            : {hobi}")
+print(f"Jumlah Karakter : {len(nama)}")
+print(f"Huruf Kapital   : {nama.upper()}")
+print(f"Huruf Kecil     : {nama.lower()}")
 
-print("=" * 35)
+print("=" * 40)
 print("Program selesai")
-print("=" * 35)
+print("=" * 40)
